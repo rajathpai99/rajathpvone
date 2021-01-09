@@ -4188,10 +4188,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>test_obj3__c</tab>
-        <visibility>DefaultOff</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>test_obj_1__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
