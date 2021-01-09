@@ -2791,10 +2791,6 @@
         <recordType>test_obj3__c.rec_type_up_3</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>test_obj3__c-test obj3 mod Layout</layout>
-        <recordType>test_obj3__c.rec_type_3</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>test_obj_1__c-test obj 1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3929,11 +3925,6 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Metric.Progress</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>test_obj3__c.rec_type_3</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
