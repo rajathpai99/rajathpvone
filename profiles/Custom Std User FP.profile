@@ -2734,9 +2734,6 @@
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>test_obj_1__c-test obj 1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>test_obj_2__c-test obj 2 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
