@@ -610,6 +610,26 @@
         <url>http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}</url>
     </webLinks>
     <webLinks>
+        <fullName>Copado_Home_Page</fullName>
+        <availability>online</availability>
+        <description>Copado main page URL</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Copado Home Page</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.copado.com/</url>
+    </webLinks>
+    <webLinks>
         <fullName>Google_link</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
@@ -627,5 +647,25 @@
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
         <url>https://www.google.com/</url>
+    </webLinks>
+    <webLinks>
+        <fullName>facebook_login</fullName>
+        <availability>online</availability>
+        <description>Link to facebook login page</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>facebook login</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.facebook.com/login/</url>
     </webLinks>
 </CustomObject>
