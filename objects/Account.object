@@ -610,6 +610,26 @@
         <url>http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}</url>
     </webLinks>
     <webLinks>
+        <fullName>Git_Hub</fullName>
+        <availability>online</availability>
+        <description>We need version control</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Git Hub</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://github.com/</url>
+    </webLinks>
+    <webLinks>
         <fullName>Google_link</fullName>
         <availability>online</availability>
         <displayType>link</displayType>
@@ -627,5 +647,25 @@
         <showsLocation>false</showsLocation>
         <showsStatus>false</showsStatus>
         <url>https://www.google.com/</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Stack_Overflow</fullName>
+        <availability>online</availability>
+        <description>Coders lifeline</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Stack Overflow</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://stackoverflow.com/</url>
     </webLinks>
 </CustomObject>
