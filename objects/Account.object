@@ -630,6 +630,25 @@
         <url>https://www.copado.com/</url>
     </webLinks>
     <webLinks>
+        <fullName>Google_link</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google link</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.google.com/</url>
+    </webLinks>
+    <webLinks>
         <fullName>facebook_login</fullName>
         <availability>online</availability>
         <description>Link to facebook login page</description>
