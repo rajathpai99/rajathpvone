@@ -1,0 +1,11 @@
+{
+  "packageDirectories" : [ {
+    "path" : "force-app",
+    "default" : true
+  }, {
+    "path" : "DXtestV1",
+    "default" : false
+  } ],
+  "sourceApiVersion" : "48.0",
+  "sfdcLoginUrl" : "https://login.salesforce.com"
+}
