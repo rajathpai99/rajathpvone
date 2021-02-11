@@ -2,6 +2,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>AccountCreation</members>
+        <members>RCDC_Validation</members>
+        <members>RCDC_ValidationTest</members>
         <members>Test_AccountCreation</members>
         <name>ApexClass</name>
     </types>
