@@ -707,6 +707,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>test_6__c</fullName>
+        <externalId>false</externalId>
+        <label>test 6</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>test_acc_picklist__c</fullName>
         <externalId>false</externalId>
         <label>test acc picklist</label>
