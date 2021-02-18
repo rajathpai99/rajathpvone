@@ -6,6 +6,38 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Sales Console</label>
     <navType>Console</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Acc_test_rec_1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Acc_test_rec_1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Acc_test_rec_1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Acc_test_rec_1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Account</tabs>
@@ -19,6 +51,9 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>test_obj_1__c</tabs>
+    <tabs>test_obj_2__c</tabs>
+    <tabs>test_obj3__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -60,6 +95,15 @@
         </mappings>
         <mappings>
             <tab>standard-report</tab>
+        </mappings>
+        <mappings>
+            <tab>test_obj3__c</tab>
+        </mappings>
+        <mappings>
+            <tab>test_obj_1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>test_obj_2__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>
