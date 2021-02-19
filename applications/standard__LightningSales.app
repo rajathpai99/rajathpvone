@@ -39,6 +39,22 @@
         <type>Flexipage</type>
         <profile>ReadOnly</profile>
     </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Acc_test_rec_1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Acc_test_rec_1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Task</tabs>
