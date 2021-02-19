@@ -13,6 +13,7 @@
     <types>
         <members>Admin</members>
         <members>ReadOnly</members>
+        <members>Standard</members>
         <name>Profile</name>
     </types>
     <version>50.0</version>
