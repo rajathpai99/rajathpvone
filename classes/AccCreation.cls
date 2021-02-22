@@ -6,7 +6,7 @@ public class AccCreation {
             Account acnt1=new Account();
             acnt1.Name = 'PaiCopa'+i+'Rajath';
             acnt1.Fax = '123paicopa';
-            acnt1.Website='https://trailhead.salesforce.com';
+            acnt1.Website='https://google.com';
             accList.add(acnt1);
         }
         if(accList.size() > 0) {
