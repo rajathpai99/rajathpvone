@@ -1,0 +1,142 @@
+{
+  "version" : "51.0",
+  "nodes" : {
+    "LOAD_DATASET0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Opportunity_Name", "Account_Type", "Account_Owner", "Product_Name", "Industry", "Won", "Account_Name" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "DTC Opportunity",
+          "name" : "DTC_Opportunity_SAMPLE"
+        }
+      }
+    },
+    "APPEND0" : {
+      "action" : "appendV2",
+      "sources" : [ "LOAD_DATASET0", "LOAD_DATASET1" ],
+      "parameters" : {
+        "fieldMappings" : [ {
+          "top" : "Opportunity_Name",
+          "bottom" : "Owner.Role.ParentRole.Name"
+        }, {
+          "top" : "Account_Type",
+          "bottom" : "Account.Type"
+        }, {
+          "top" : "Product_Name",
+          "bottom" : "Name"
+        }, {
+          "top" : "Industry",
+          "bottom" : "Account.Industry"
+        }, {
+          "top" : "Won",
+          "bottom" : "OpenClosedWonLost"
+        }, {
+          "top" : "Account_Name",
+          "bottom" : "Owner.Role.Name"
+        } ]
+      }
+    },
+    "LOAD_DATASET1" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "LastModifiedDate", "Account.Type", "AccountId", "HasOpportunityLineItem", "IsLost", "Account.Owner.Role.RolePath", "Account.Owner.UniqueUserName", "ForecastCategory", "CloseDate", "Owner.Role.ParentRole.Name", "Name", "Owner.Role.Hierarchy_RoleNames", "CreatedById", "Owner.Role.Name", "Account.Owner.Role.Roles", "Owner.Username", "Owner.Role.DeveloperName", "Owner.Role.RoleNamesPath", "Owner.Role.RolePath", "LeadSource", "Product.Product.Name", "Account.BillingCountry", "CreatedDate", "Account.OwnerId", "Id", "ForecastCategoryName", "Owner.Role.RoleNames", "Owner.UniqueUserName", "Owner.FullPhotoUrl", "Account.Owner.Role.Name", "OpenClosedWonLost", "IsClosed", "RecordType.Name", "Owner.SmallPhotoUrl", "Owner.Role.ParentRoleId", "Account.Industry", "OwnerId", "IsWon", "RecordTypeId", "Owner.UserRoleId", "Account.AccountSource", "Account.Owner.Role.ParentRoleId", "Neglected", "Owner.Name", "Stage.StageName", "StageName", "Account.BillingState", "Account.Owner.Name", "Owner.Role.Roles", "CustomFilter", "Owner.Role.ParentRole.DeveloperName", "Type", "Pushed", "IsPastDue", "Product.Product.Family", "LastActivityDate", "Account.Name", "DaysPastDue", "Stage.IsPushed", "Stage.SortOrder", "Stage.DefaultProbability", "Stage.IsPulled", "Account.AnnualRevenue", "OpportunityAge", "Account.NumberOfEmployees", "DaysSinceLastActivity", "Amount", "Time_In_Current_Stage.Duration_Seconds" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Opportunities",
+          "name" : "opportunity"
+        }
+      }
+    },
+    "PREDICT_MISSING_VALUES0" : {
+      "action" : "predictValues",
+      "sources" : [ "APPEND0" ],
+      "parameters" : {
+        "fields" : [ {
+          "name" : "Product_Name_prediction",
+          "label" : "Product Name Predict",
+          "predictionSetup" : {
+            "sourceField" : {
+              "name" : "Product_Name"
+            },
+            "modelInputFields" : [ {
+              "name" : "Industry"
+            } ]
+          }
+        } ]
+      }
+    },
+    "OUTPUT0" : {
+      "action" : "save",
+      "sources" : [ "PREDICT_MISSING_VALUES0" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Test Opties Pai",
+          "name" : "Test_Opties_Pai"
+        }
+      }
+    }
+  },
+  "ui" : {
+    "nodes" : {
+      "LOAD_DATASET0" : {
+        "label" : "DTC Opportunity",
+        "type" : "LOAD_DATASET",
+        "top" : 112,
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "APPEND0" : {
+        "label" : "Append",
+        "type" : "APPEND",
+        "top" : 112,
+        "left" : 252
+      },
+      "LOAD_DATASET1" : {
+        "label" : "Opportunities",
+        "type" : "LOAD_DATASET",
+        "top" : 252,
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "TRANSFORM0" : {
+        "label" : "Transform",
+        "type" : "TRANSFORM",
+        "top" : 112,
+        "left" : 392,
+        "graph" : {
+          "PREDICT_MISSING_VALUES0" : null
+        },
+        "connectors" : [ ]
+      },
+      "OUTPUT0" : {
+        "label" : "Output",
+        "type" : "OUTPUT",
+        "top" : 112,
+        "left" : 532
+      }
+    },
+    "connectors" : [ {
+      "source" : "LOAD_DATASET0",
+      "target" : "APPEND0"
+    }, {
+      "source" : "LOAD_DATASET1",
+      "target" : "APPEND0"
+    }, {
+      "source" : "APPEND0",
+      "target" : "TRANSFORM0"
+    }, {
+      "source" : "TRANSFORM0",
+      "target" : "OUTPUT0"
+    } ],
+    "hiddenColumns" : [ ]
+  }
+}
