@@ -6,61 +6,13 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Service Console</label>
     <navType>Console</navType>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Acc_test_rec_1</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Acc_test_rec_1</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Acc_test_rec_1</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Acc_test_rec_1</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Acc_test_rec_1</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Acc_test_rec_1</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
     <setupExperience>service</setupExperience>
     <tabs>standard-Case</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>standard-home</tabs>
+    <tabs>standard-WaveHomeLightning</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -77,7 +29,7 @@
             <tab>standard-Dashboard</tab>
         </mappings>
         <mappings>
-            <tab>standard-home</tab>
+            <tab>standard-WaveHomeLightning</tab>
         </mappings>
         <mappings>
             <tab>standard-report</tab>

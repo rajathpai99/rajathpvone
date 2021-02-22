@@ -217,6 +217,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -229,23 +233,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -279,14 +287,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -431,6 +441,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -443,23 +457,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -493,14 +511,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -649,6 +669,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -661,23 +685,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -712,14 +740,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -864,6 +894,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -876,23 +910,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -926,14 +964,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1082,6 +1122,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1094,23 +1138,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1145,14 +1193,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1297,6 +1347,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1309,23 +1363,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1359,14 +1417,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1515,6 +1575,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1527,23 +1591,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1578,14 +1646,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1730,6 +1800,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1742,23 +1816,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1792,14 +1870,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1827,7 +1907,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>false</hasProductFamily>
         <isAmount>true</isAmount>
-        <isAvailable>true</isAvailable>
+        <isAvailable>false</isAvailable>
         <isQuantity>false</isQuantity>
         <masterLabel>Opportunity Revenue Schedule Date</masterLabel>
         <name>OpportunityRevenueScheduleDate</name>
@@ -1948,6 +2028,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1960,23 +2044,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2011,14 +2099,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2046,7 +2136,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>false</hasProductFamily>
         <isAmount>false</isAmount>
-        <isAvailable>true</isAvailable>
+        <isAvailable>false</isAvailable>
         <isQuantity>true</isQuantity>
         <masterLabel>Opportunity Quantity Schedule Date</masterLabel>
         <name>OpportunityQuantityScheduleDate</name>
@@ -2163,6 +2253,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2175,23 +2269,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2225,14 +2323,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2260,7 +2360,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>true</hasProductFamily>
         <isAmount>true</isAmount>
-        <isAvailable>true</isAvailable>
+        <isAvailable>false</isAvailable>
         <isQuantity>false</isQuantity>
         <masterLabel>Line Item Revenue Schedule Date</masterLabel>
         <name>LineItemRevenueScheduleDate</name>
@@ -2381,6 +2481,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2393,23 +2497,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2444,14 +2552,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2479,7 +2589,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>true</hasProductFamily>
         <isAmount>false</isAmount>
-        <isAvailable>true</isAvailable>
+        <isAvailable>false</isAvailable>
         <isQuantity>true</isQuantity>
         <masterLabel>Line Item Quantity Schedule Date</masterLabel>
         <name>LineItemQuantityScheduleDate</name>
@@ -2596,6 +2706,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2608,23 +2722,27 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N5g000007B6ns</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N5g000007B6nt</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N5g000007B6nu</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N5g000007B6o6</field>
+            <label>Opportunity Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N5g000007B6nv</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6nw</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2658,14 +2776,16 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N5g000007B6ns</field>
+            <field>00N5g000007B6nt</field>
+            <field>00N5g000007B6nu</field>
+            <field>00N5g000007B6o6</field>
+            <field>00N5g000007B6nv</field>
+            <field>00N5g000007B6nw</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>

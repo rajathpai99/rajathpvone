@@ -226,7 +226,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
-    <enableHistory>true</enableHistory>
+    <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountNumber</fullName>
@@ -354,12 +354,8 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>OperatingHoursId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>OwnerId</fullName>
+        <inlineHelpText>DEPRECIATED!! User Owner__c</inlineHelpText>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
     </fields>
@@ -434,6 +430,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Segment</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -497,72 +503,6 @@
     <fields>
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>test_1__c</fullName>
-        <externalId>false</externalId>
-        <label>test 1</label>
-        <length>10</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>test_2__c</fullName>
-        <externalId>false</externalId>
-        <label>test 2</label>
-        <length>10</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>test_3__c</fullName>
-        <externalId>false</externalId>
-        <label>test 3</label>
-        <length>10</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>test_4__c</fullName>
-        <externalId>false</externalId>
-        <label>test 4</label>
-        <length>10</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>test_5__c</fullName>
-        <externalId>false</externalId>
-        <label>test 5</label>
-        <length>10</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>test_6__c</fullName>
-        <externalId>false</externalId>
-        <label>test 6</label>
-        <length>10</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
@@ -641,104 +581,5 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>Copado_Home_Page</fullName>
-        <availability>online</availability>
-        <description>Copado main page URL</description>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Copado Home Page</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://www.copado.com/</url>
-    </webLinks>
-    <webLinks>
-        <fullName>Git_Hub</fullName>
-        <availability>online</availability>
-        <description>We need version control</description>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Git Hub</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://github.com/</url>
-    </webLinks>
-    <webLinks>
-        <fullName>Google_link</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Google link</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://www.google.com/</url>
-    </webLinks>
-    <webLinks>
-        <fullName>Stack_Overflow</fullName>
-        <availability>online</availability>
-        <description>Coders lifeline</description>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Stack Overflow</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://stackoverflow.com/</url>
-    </webLinks>
-    <webLinks>
-        <fullName>facebook_login</fullName>
-        <availability>online</availability>
-        <description>Link to facebook login page</description>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>facebook login</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://www.facebook.com/login/</url>
     </webLinks>
 </CustomObject>
