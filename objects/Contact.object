@@ -524,6 +524,21 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypes>
+        <fullName>CRM_Work</fullName>
+        <active>true</active>
+        <label>CRM Work</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>CRM_Work_SE</fullName>
+        <active>true</active>
+        <label>CRM Work SE</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>X360_Connect_Contact</fullName>
+        <active>true</active>
+        <label>X360 Connect Contact</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
