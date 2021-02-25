@@ -438,6 +438,16 @@
                     <default>false</default>
                     <label>WhileLoopsMustUseBraces</label>
                 </value>
+                <value>
+                    <fullName>VfCsrf</fullName>
+                    <default>false</default>
+                    <label>VfCsrf</label>
+                </value>
+                <value>
+                    <fullName>VfUnescapeEl</fullName>
+                    <default>false</default>
+                    <label>VfUnescapeEl</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>

@@ -706,6 +706,14 @@
             <translation><!-- Completed --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Doing</masterLabel>
+            <translation><!-- Doing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Done</masterLabel>
+            <translation><!-- Done --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Draft</masterLabel>
             <translation><!-- Draft --></translation>
         </picklistValues>
@@ -720,6 +728,10 @@
         <picklistValues>
             <masterLabel>Rejected</masterLabel>
             <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Do</masterLabel>
+            <translation><!-- To Do --></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -797,6 +809,18 @@
         <label><!-- So that... --></label>
         <name>copado__userStory_reason__c</name>
     </fields>
+    <fields>
+        <label><!-- Enable Logs --></label>
+        <name>copadoccmint__Enable_Logs__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>copadoccmint__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- JIRA key --></label>
+        <name>copadoccmint__JIRA_key__c</name>
+    </fields>
     <recordTypes>
         <label><!-- Bug --></label>
         <name>copado__Bug</name>
@@ -868,6 +892,10 @@
     <webLinks>
         <label><!-- Mass_Add_User_Stories_Sprint --></label>
         <name>copado__Mass_Add_User_Stories_Sprint</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Org --></label>
+        <name>copado__Open_Org</name>
     </webLinks>
     <webLinks>
         <label><!-- Perform_Validation --></label>
