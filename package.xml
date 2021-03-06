@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AccCreation</members>
-        <members>Test_AccCreation</members>
-        <name>ApexClass</name>
+        <members>Contact.test_con_1__c</members>
+        <members>Contact.test_con_2__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>ReadOnly</members>
+        <name>Profile</name>
     </types>
     <version>50.0</version>
 </Package>
