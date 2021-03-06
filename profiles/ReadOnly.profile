@@ -3758,13 +3758,13 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.test_con_2__c</field>
+        <editable>true</editable>
+        <field>Contact.test_con_1__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Contact.test_con_1__c</field>
+        <editable>false</editable>
+        <field>Contact.test_con_2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3780,6 +3780,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.test_con_4_update__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.test_con_5_update__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
