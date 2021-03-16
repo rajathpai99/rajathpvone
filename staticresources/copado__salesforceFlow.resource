@@ -111,6 +111,14 @@ var salesforceFlow = salesforceFlow || {};
     app.createHtmlFlowOptionsElements = function(flowOptions) {
         const selectElement = document.getElementById('jsSalesforceFlowName');
         if (selectElement.childElementCount === 0) {
+            if(flowOptions.length === 0){
+                const node = document.createElement('option');
+                node.value = null;
+                node.disabled = "disabled";
+                const textnode = document.createTextNode(copadoLabels.NO_SALESFORCE_FLOWS_AVAILABLE);
+                node.appendChild(textnode);
+                selectElement.appendChild(node);
+            }
             for (const flow of flowOptions) {
                 const node = document.createElement('option');
                 node.value = flow['flowApiName'];
