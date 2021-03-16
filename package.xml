@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.test_6__c</members>
-        <name>CustomField</name>
+        <members>Case.test sup pro</members>
+        <members>Case.test sup pro 2</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Read Only - Dev plus</members>
+        <members>ReadOnly</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Case.case_rec_v1</members>
+        <members>Case.case_rec_v2</members>
+        <members>Case.case_rec_v3</members>
+        <name>RecordType</name>
     </types>
     <version>50.0</version>
 </Package>
