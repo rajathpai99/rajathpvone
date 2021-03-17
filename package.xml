@@ -5,8 +5,9 @@
         <name>Profile</name>
     </types>
     <types>
-        <members>Case.case_rec_v1</members>
+        <members>Case.case_rec_v2</members>
+        <members>Case.case_rec_v4</members>
         <name>RecordType</name>
     </types>
-    <version>50.0</version>
+    <version>51.0</version>
 </Package>
