@@ -3,11 +3,11 @@ public class AccCreation {
         try{
         List<Account> accList= new List<Account>();
         for( Integer i=0 ; i<20 ; i++ ) {
-            Account acnt1=new Account();
-            acnt1.Name = 'PaiCopa'+i+'Rajath';
-            acnt1.Fax = '123paicopa';
-            acnt1.Website='{!Environment.URL_Test__c.Dummy__Results}';
-            accList.add(acnt1);
+            Account act1=new Account();
+            act1.Name = 'PaiCopa'+i+'Rajath';
+            act1.Fax = '123paicopa';
+            act1.Website='https://twitter.com';
+            accList.add(act1);
         }
         if(accList.size() > 0) {
             insert  accList;
