@@ -3337,11 +3337,6 @@
         <endAddress>10.0.0.0</endAddress>
         <startAddress>0.0.0.0</startAddress>
     </loginIpRanges>
-    <loginIpRanges>
-        <description>test range 2</description>
-        <endAddress>255.255.255.255</endAddress>
-        <startAddress>10.0.0.1</startAddress>
-    </loginIpRanges>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
