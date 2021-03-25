@@ -455,7 +455,7 @@
         <label>MSP_test</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>MultiselectPicklist</type>
+        <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
@@ -482,7 +482,6 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
-        <visibleLines>4</visibleLines>
     </fields>
     <fields>
         <fullName>MailingAddress</fullName>
