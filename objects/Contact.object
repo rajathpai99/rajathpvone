@@ -450,6 +450,41 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>MSP_test__c</fullName>
+        <externalId>false</externalId>
+        <label>MSP_test</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>test1</fullName>
+                    <default>false</default>
+                    <label>test1</label>
+                </value>
+                <value>
+                    <fullName>test2</fullName>
+                    <default>false</default>
+                    <label>test2</label>
+                </value>
+                <value>
+                    <fullName>test3</fullName>
+                    <default>false</default>
+                    <label>test3</label>
+                </value>
+                <value>
+                    <fullName>test4</fullName>
+                    <default>false</default>
+                    <label>test4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
         <fullName>MailingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
