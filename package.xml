@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Contact.MSP_test__c</members>
+        <members>Contact.Fax</members>
+        <members>Contact.test_con_4_update__c</members>
         <name>CustomField</name>
     </types>
     <version>51.0</version>
