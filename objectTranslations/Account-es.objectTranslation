@@ -5,51 +5,51 @@
         <name>Active__c</name>
         <picklistValues>
             <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Customer Priority --></label>
+        <label></label>
         <name>CustomerPriority__c</name>
         <picklistValues>
             <masterLabel>High</masterLabel>
-            <translation><!-- High --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Low</masterLabel>
-            <translation><!-- Low --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Medium</masterLabel>
-            <translation><!-- Medium --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Customer Email --></label>
+        <label></label>
         <name>Customer_Email__c</name>
     </fields>
     <fields>
-        <label><!-- External Id --></label>
+        <label></label>
         <name>External_Id__c</name>
     </fields>
     <fields>
-        <label><!-- Is Gold Partner? --></label>
+        <label></label>
         <name>Is_Gold_Partner__c</name>
     </fields>
     <fields>
-        <label><!-- Number of Locations --></label>
+        <label></label>
         <name>NumberofLocations__c</name>
     </fields>
     <fields>
-        <label><!-- SLA Expiration Date --></label>
+        <label></label>
         <name>SLAExpirationDate__c</name>
     </fields>
     <fields>
-        <label><!-- SLA Serial Number --></label>
+        <label></label>
         <name>SLASerialNumber__c</name>
     </fields>
     <fields>
@@ -57,167 +57,167 @@
         <name>SLA__c</name>
         <picklistValues>
             <masterLabel>Bronze</masterLabel>
-            <translation><!-- Bronze --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Gold</masterLabel>
-            <translation><!-- Gold --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Platinum</masterLabel>
-            <translation><!-- Platinum --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Silver</masterLabel>
-            <translation><!-- Silver --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Upsell Opportunity --></label>
+        <label></label>
         <name>UpsellOpportunity__c</name>
         <picklistValues>
             <masterLabel>Maybe</masterLabel>
-            <translation><!-- Maybe --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- child field --></label>
+        <label></label>
         <name>child_field__c</name>
         <picklistValues>
             <masterLabel>eight</masterLabel>
-            <translation><!-- eight --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>five</masterLabel>
-            <translation><!-- five --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>four</masterLabel>
-            <translation><!-- four --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>nine</masterLabel>
-            <translation><!-- nine --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>one</masterLabel>
-            <translation><!-- one --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>seven</masterLabel>
-            <translation><!-- seven --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>six</masterLabel>
-            <translation><!-- six --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>three</masterLabel>
-            <translation><!-- three --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>two</masterLabel>
-            <translation><!-- two --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- controlling pick list --></label>
+        <label></label>
         <name>controlling_pick_list__c</name>
         <picklistValues>
             <masterLabel>a</masterLabel>
-            <translation><!-- a --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>b</masterLabel>
-            <translation><!-- b --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- test 1 --></label>
+        <label></label>
         <name>test_1__c</name>
     </fields>
     <fields>
-        <label><!-- test 2 --></label>
+        <label></label>
         <name>test_2__c</name>
     </fields>
     <fields>
-        <label><!-- test 3 --></label>
+        <label></label>
         <name>test_3__c</name>
     </fields>
     <fields>
-        <label><!-- test 4 --></label>
+        <label></label>
         <name>test_4__c</name>
     </fields>
     <fields>
-        <label><!-- test 5 --></label>
+        <label></label>
         <name>test_5__c</name>
     </fields>
     <fields>
-        <label><!-- test acc picklist --></label>
+        <label></label>
         <name>test_acc_picklist__c</name>
         <picklistValues>
             <masterLabel>apple</masterLabel>
-            <translation><!-- apple --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>ball</masterLabel>
-            <translation><!-- ball --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>cat_small</masterLabel>
-            <translation><!-- cat_small --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>dog</masterLabel>
-            <translation><!-- dog --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>elephant_big</masterLabel>
-            <translation><!-- elephant_big --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>fountain</masterLabel>
-            <translation><!-- fountain --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>garage</masterLabel>
-            <translation><!-- garage --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>horse</masterLabel>
-            <translation><!-- horse --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>intelligent</masterLabel>
-            <translation><!-- intelligent --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>jack</masterLabel>
-            <translation><!-- jack --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>kait</masterLabel>
-            <translation><!-- kait --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <validationRules>
-        <errorMessage><!-- Account Number cannot be nullified --></errorMessage>
+        <errorMessage></errorMessage>
         <name>Cinema_Acc_Val</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Billing Country cannot be blank --></errorMessage>
+        <errorMessage></errorMessage>
         <name>test_acc</name>
     </validationRules>
     <webLinks>
-        <label><!-- Billing --></label>
+        <label></label>
         <name>Billing</name>
     </webLinks>
 </CustomObjectTranslation>

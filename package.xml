@@ -10,6 +10,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Account-es</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
         <members>test_object_v1_mdt__c-test ly_layout</members>
         <members>test_object_v1_mdt__c-test object v1 Layout</members>
         <name>Layout</name>
