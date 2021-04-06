@@ -1,21 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.test sup pro</members>
-        <members>Case.test sup pro 2</members>
-        <name>BusinessProcess</name>
+        <members>AccountContactRole</members>
+        <members>AccountOwnership</members>
+        <members>AccountRating</members>
+        <members>AccountRating</members>
+        <members>AccountType</members>
+        <members>AssetStatus</members>
+        <members>CampaignMemberStatus</members>
+        <members>CampaignStatus</members>
+        <members>CampaignType</members>
+        <members>CaseOrigin</members>
+        <members>CasePriority</members>
+        <members>CaseReason</members>
+        <members>CaseStatus</members>
+        <members>CaseType</members>
+        <members>ContactRole</members>
+        <members>ContactRole</members>
+        <members>ContractContactRole</members>
+        <members>ContractStatus</members>
+        <members>EventSubject</members>
+        <members>IdeaMultiCategory</members>
+        <members>IdeaStatus</members>
+        <members>Industry</members>
+        <members>Industry</members>
+        <members>InvoiceStatus</members>
+        <members>LeadSource</members>
+        <members>LeadSource</members>
+        <members>LeadStatus</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityStage</members>
+        <members>OpportunityType</members>
+        <members>OrderStatus</members>
+        <members>OrderType</members>
+        <members>PartnerRole</members>
+        <members>Product2Family</members>
+        <members>QuantityUnitOfMeasure</members>
+        <members>QuickTextCategory</members>
+        <members>QuickTextChannel</members>
+        <members>ResourceAbsenceType</members>
+        <members>Salutation</members>
+        <members>Salutation</members>
+        <members>Salutation</members>
+        <members>Salutation</members>
+        <members>ServTerrMemRoleType</members>
+        <members>ServiceAppointmentStatus</members>
+        <members>SolutionStatus</members>
+        <members>TaskPriority</members>
+        <members>TaskStatus</members>
+        <members>TaskSubject</members>
+        <members>WorkTypeGroupAddInfo</members>
+        <name>StandardValueSet</name>
     </types>
-    <types>
-        <members>Admin</members>
-        <members>Read Only - Dev plus</members>
-        <members>ReadOnly</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>Case.case_rec_v1</members>
-        <members>Case.case_rec_v2</members>
-        <members>Case.case_rec_v3</members>
-        <name>RecordType</name>
-    </types>
-    <version>50.0</version>
+    <version>51.0</version>
 </Package>
