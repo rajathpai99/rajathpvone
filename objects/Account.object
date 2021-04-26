@@ -720,7 +720,7 @@
     <fields>
         <fullName>test_7__c</fullName>
         <externalId>false</externalId>
-        <label>test 7</label>
+        <label>test 7 upd</label>
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
