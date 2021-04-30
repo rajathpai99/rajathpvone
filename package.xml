@@ -4,9 +4,5 @@
         <members>unfiled$public/test_et</members>
         <name>EmailTemplate</name>
     </types>
-    <types>
-        <members>test_lh</members>
-        <name>Letterhead</name>
-    </types>
     <version>51.0</version>
 </Package>
