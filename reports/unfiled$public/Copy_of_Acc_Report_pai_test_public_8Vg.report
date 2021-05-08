@@ -10,9 +10,6 @@
         <field>ACCOUNT.NAME</field>
     </columns>
     <columns>
-        <field>ADDRESS1_STATE</field>
-    </columns>
-    <columns>
         <field>TYPE</field>
     </columns>
     <columns>
@@ -21,7 +18,12 @@
     <columns>
         <field>LAST_UPDATE</field>
     </columns>
-    <format>Tabular</format>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ADDRESS1_STATE</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
     <name>Copy of Acc Report - pai test public</name>
     <params>
         <name>co</name>
