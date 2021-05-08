@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>unfiled$public/test_et</members>
-        <name>EmailTemplate</name>
+        <members>Dynamic_DB_folder</members>
+        <members>Dynamic_DB_folder/Dynamic_DB_test</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>unfiled$public/Copy_of_Acc_Report_pai_test_public_8Vg</members>
+        <name>Report</name>
     </types>
     <version>51.0</version>
 </Package>
