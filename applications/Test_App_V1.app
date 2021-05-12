@@ -6,5 +6,5 @@
     <label>Test App V1</label>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
-    <tabs>standard-Case</tabs>
+    <tabs>standard-Opportunity</tabs>
 </CustomApplication>
