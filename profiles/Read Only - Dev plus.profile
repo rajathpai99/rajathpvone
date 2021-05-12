@@ -17,6 +17,10 @@
         <endAddress>10.0.0.0</endAddress>
         <startAddress>0.0.0.0</startAddress>
     </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>255.255.255.255</endAddress>
+        <startAddress>10.0.0.0</startAddress>
+    </loginIpRanges>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Case.case_rec_v1</recordType>
