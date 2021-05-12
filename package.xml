@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Test_App_V1</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>Admin</members>
         <members>Read Only - Dev plus</members>
-        <members>ReadOnly</members>
         <name>Profile</name>
     </types>
     <version>51.0</version>
