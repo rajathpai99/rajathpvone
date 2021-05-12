@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Test_App_V1</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <custom>true</custom>
     <loginHours>
         <mondayEnd>840</mondayEnd>
@@ -11,11 +16,6 @@
         <description>test range 1</description>
         <endAddress>10.0.0.0</endAddress>
         <startAddress>0.0.0.0</startAddress>
-    </loginIpRanges>
-    <loginIpRanges>
-        <description>test range 2</description>
-        <endAddress>255.255.255.255</endAddress>
-        <startAddress>10.0.0.1</startAddress>
     </loginIpRanges>
     <recordTypeVisibilities>
         <default>true</default>
