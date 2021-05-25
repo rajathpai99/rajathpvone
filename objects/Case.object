@@ -261,6 +261,32 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Case_test_1__c</fullName>
+        <description>case test 1 field</description>
+        <externalId>false</externalId>
+        <label>Case test 1</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_test_2__c</fullName>
+        <description>case test 2 field</description>
+        <externalId>false</externalId>
+        <label>Case test 2</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ClosedDate</fullName>
         <trackTrending>false</trackTrending>
     </fields>
