@@ -13,7 +13,6 @@
     <enableDashboardComponentSnapshot>false</enableDashboardComponentSnapshot>
     <enableDashboardFlexiTable>true</enableDashboardFlexiTable>
     <enableEmailReportsToPortalUsers>false</enableEmailReportsToPortalUsers>
-    <enableFirebirdEditor>false</enableFirebirdEditor>
     <enableFloatingReportHeaders>true</enableFloatingReportHeaders>
     <enableInsights>true</enableInsights>
     <enableLightningReportBuilder>false</enableLightningReportBuilder>
@@ -21,7 +20,7 @@
     <enableMassEnableReportBuilder>true</enableMassEnableReportBuilder>
     <enableNewChartsEngine>true</enableNewChartsEngine>
     <enableOrgHasWatchlistEnabled>true</enableOrgHasWatchlistEnabled>
-    <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
+    <enableQueryLiveConnectors>false</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
     <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
     <enableReportCrtAutoAddPref>false</enableReportCrtAutoAddPref>
@@ -34,7 +33,7 @@
     <enableSnowflakeOutputConnector>false</enableSnowflakeOutputConnector>
     <enableUseOldChartsLookAndFeel>false</enableUseOldChartsLookAndFeel>
     <enableWaveAssetsNewDateVersion>false</enableWaveAssetsNewDateVersion>
-    <enableWaveIndexMVDim>false</enableWaveIndexMVDim>
+    <enableWaveIndexMVDim>true</enableWaveIndexMVDim>
     <enableWaveRecordNavigation>false</enableWaveRecordNavigation>
     <enableWaveReplication>false</enableWaveReplication>
     <enableWaveSharingInheritance>false</enableWaveSharingInheritance>

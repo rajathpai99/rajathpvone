@@ -11,9 +11,9 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>rajathpvone@copado.com.production</defaultCaseOwner>
+    <defaultCaseOwner>rpai@copado.com.devtwo</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>rajathpvone@copado.com.production</defaultCaseUser>
+    <defaultCaseUser>rpai@copado.com.devtwo</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
