@@ -229,23 +229,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -282,11 +294,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -443,23 +458,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -496,11 +523,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -661,23 +691,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -715,11 +757,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -876,23 +921,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -929,11 +986,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1094,23 +1154,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1148,11 +1220,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1309,23 +1384,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1362,11 +1449,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1527,23 +1617,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1581,11 +1683,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1742,23 +1847,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1795,11 +1912,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1960,23 +2080,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2014,11 +2146,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2175,23 +2310,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2228,11 +2375,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2393,23 +2543,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2447,11 +2609,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2608,23 +2773,35 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRo</field>
+            <field>00N2w00000EdThw</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRp</field>
+            <field>00N2w00000EdThx</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRq</field>
+            <field>00N2w00000EdThy</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRr</field>
+            <field>00N2w00000EdThz</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000FXGOf</field>
+            <label>test dep 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOg</field>
+            <label>test dep 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000FXGOh</field>
+            <label>test dep 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000EdTi0</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2661,11 +2838,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g000002PfRo</field>
-            <field>00N5g000002PfRp</field>
-            <field>00N5g000002PfRq</field>
-            <field>00N5g000002PfRr</field>
-            <field>00N5g000002PfRs</field>
+            <field>00N2w00000EdThw</field>
+            <field>00N2w00000EdThx</field>
+            <field>00N2w00000EdThy</field>
+            <field>00N2w00000EdThz</field>
+            <field>00N2w00000FXGOf</field>
+            <field>00N2w00000FXGOg</field>
+            <field>00N2w00000FXGOh</field>
+            <field>00N2w00000EdTi0</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
