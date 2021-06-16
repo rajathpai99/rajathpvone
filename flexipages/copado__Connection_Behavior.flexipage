@@ -105,6 +105,22 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
+                    <value>readonly</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.copado__Schedule_Promotion__c</fieldItem>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.copado__Promotion_Behavior__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Scheduled</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.copado__Max_Scheduled_Promotion_Batch_Size__c</fieldItem>
@@ -117,22 +133,23 @@
                 </visibilityRule>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.copado__Execute_promotions_in_parallel__c</fieldItem>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-87354d54-a8b3-4d8e-8c73-a85d6a5328d6</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
             <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>readonly</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.copado__Schedule_Promotion__c</fieldItem>
+                <fieldItem>Record.copado__Promotion_Criteria__c</fieldItem>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!Record.copado__Promotion_Behavior__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Scheduled</rightValue>
+                        <operator>NE</operator>
+                        <rightValue>Manual</rightValue>
                     </criteria>
                 </visibilityRule>
             </fieldInstance>
@@ -185,9 +202,9 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>none</value>
+                    <value>readonly</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.copado__Max_Scheduled_Back_Promotion_Batch_Size__c</fieldItem>
+                <fieldItem>Record.copado__Schedule_Back_Promotion__c</fieldItem>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!Record.copado__Back_Promotion_Behavior__c}</leftValue>
@@ -197,17 +214,34 @@
                 </visibilityRule>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.copado__Execute_back_promotions_in_parallel__c</fieldItem>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-9e45a206-07a6-4228-bacd-4c7422f6dc2f</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
             <fieldInstance>
+                <fieldItem>Record.copado__Back_Promotion_Criteria__c</fieldItem>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.copado__Back_Promotion_Behavior__c}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>Manual</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>readonly</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.copado__Schedule_Back_Promotion__c</fieldItem>
+                <fieldItem>Record.copado__Max_Scheduled_Back_Promotion_Batch_Size__c</fieldItem>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!Record.copado__Back_Promotion_Behavior__c}</leftValue>
