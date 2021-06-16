@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>TSales_Lightning</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Test_App_V1</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>chttrunfollow_UnfollowRukes</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <custom>true</custom>
     <loginHours>
         <mondayEnd>840</mondayEnd>
@@ -13,9 +28,8 @@
         <startAddress>0.0.0.0</startAddress>
     </loginIpRanges>
     <loginIpRanges>
-        <description>test range 2</description>
         <endAddress>255.255.255.255</endAddress>
-        <startAddress>10.0.0.1</startAddress>
+        <startAddress>10.0.0.0</startAddress>
     </loginIpRanges>
     <recordTypeVisibilities>
         <default>true</default>
