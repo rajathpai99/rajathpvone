@@ -205,6 +205,14 @@
             <translation><!-- VariableNamingConventions --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>VfCsrf</masterLabel>
+            <translation><!-- VfCsrf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VfUnescapeEl</masterLabel>
+            <translation><!-- VfUnescapeEl --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>WhileLoopsMustUseBraces</masterLabel>
             <translation><!-- WhileLoopsMustUseBraces --></translation>
         </picklistValues>
