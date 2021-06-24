@@ -4,4 +4,12 @@
         <label>TSales_fr</label>
         <name>TSalesCommission</name>
     </customApplications>
+    <customLabels>
+        <label>test_label1_fr</label>
+        <name>test_label_1</name>
+    </customLabels>
+    <customLabels>
+        <label>test_label2_fr</label>
+        <name>test_label_2</name>
+    </customLabels>
 </Translations>
