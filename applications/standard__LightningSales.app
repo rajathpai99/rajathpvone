@@ -9,6 +9,22 @@
     <navType>Standard</navType>
     <profileActionOverrides>
         <actionName>View</actionName>
+        <content>New_Opportunity_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>New_Opportunity_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
         <content>Acc_test_rec_1</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
@@ -29,7 +45,7 @@
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
         <type>Flexipage</type>
-        <profile>ReadOnly</profile>
+        <profile>Read Only</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -37,7 +53,7 @@
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
         <type>Flexipage</type>
-        <profile>ReadOnly</profile>
+        <profile>Read Only</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -56,6 +72,7 @@
         <profile>Standard</profile>
     </profileActionOverrides>
     <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Quote</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Task</tabs>
     <tabs>standard-File</tabs>
