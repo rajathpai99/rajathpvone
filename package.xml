@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>test_label_1</members>
-        <name>CustomLabel</name>
-    </types>
-    <types>
-        <members>fr</members>
-        <name>Translations</name>
+        <members>Dynamic_DB_folder/Test_Dashboard</members>
+        <members>Dynamic_DB_folder/Test_Dashboard_New</members>
+        <name>Dashboard</name>
     </types>
     <version>51.0</version>
 </Package>
