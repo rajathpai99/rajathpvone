@@ -9,7 +9,7 @@
         <botDialogs>
             <botSteps>
                 <botMessages>
-                    <message>Hi, How are you?</message>
+                    <message>Hi, How are you? Conflict generation - devone</message>
                 </botMessages>
                 <type>Message</type>
             </botSteps>
