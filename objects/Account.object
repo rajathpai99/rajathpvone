@@ -602,6 +602,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>test_17__c</fullName>
+        <externalId>false</externalId>
+        <label>test 17</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>test_8__c</fullName>
         <externalId>false</externalId>
         <label>test 8</label>
