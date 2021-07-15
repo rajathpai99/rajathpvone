@@ -173,6 +173,31 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Controlling_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Controlling Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Control Animal</fullName>
+                    <default>false</default>
+                    <label>Control Animal</label>
+                </value>
+                <value>
+                    <fullName>Control Bird</fullName>
+                    <default>false</default>
+                    <label>Control Bird</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>CurrentGenerators__c</fullName>
         <externalId>false</externalId>
         <label>Current Generator(s)</label>
@@ -210,6 +235,76 @@
                     <label>Completed</label>
                 </value>
             </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Dependent_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Dependent Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Controlling_Picklist__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lion</fullName>
+                    <default>false</default>
+                    <label>Lion</label>
+                </value>
+                <value>
+                    <fullName>Tiger</fullName>
+                    <default>false</default>
+                    <label>Tiger</label>
+                </value>
+                <value>
+                    <fullName>Fox</fullName>
+                    <default>false</default>
+                    <label>Fox</label>
+                </value>
+                <value>
+                    <fullName>Eagle</fullName>
+                    <default>false</default>
+                    <label>Eagle</label>
+                </value>
+                <value>
+                    <fullName>Kingfisher</fullName>
+                    <default>false</default>
+                    <label>Kingfisher</label>
+                </value>
+                <value>
+                    <fullName>Albetross</fullName>
+                    <default>false</default>
+                    <label>Albetross</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Control Animal</controllingFieldValue>
+                <valueName>Lion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Control Animal</controllingFieldValue>
+                <valueName>Tiger</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Control Animal</controllingFieldValue>
+                <valueName>Fox</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Control Bird</controllingFieldValue>
+                <valueName>Eagle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Control Bird</controllingFieldValue>
+                <valueName>Kingfisher</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Control Bird</controllingFieldValue>
+                <valueName>Albetross</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>
@@ -275,6 +370,12 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PartnerAccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Pricebook2Id</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -289,6 +390,12 @@
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SyncedQuoteId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>TotalOpportunityQuantity</fullName>
@@ -311,6 +418,56 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>test_dep_1__c</fullName>
+        <complianceGroup>PII;GDPR</complianceGroup>
+        <description>This is just an update</description>
+        <externalId>false</externalId>
+        <label>test dep 1 upd</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_dep_2__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>Another update</description>
+        <externalId>false</externalId>
+        <label>test dep 2 upd</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_dep_3__c</fullName>
+        <complianceGroup>GDPR</complianceGroup>
+        <description>An update to test feature</description>
+        <externalId>false</externalId>
+        <label>test dep 3 upd</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_dep_4__c</fullName>
+        <externalId>false</externalId>
+        <label>test dep 4</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <listViews>
         <fullName>AllOpportunities</fullName>

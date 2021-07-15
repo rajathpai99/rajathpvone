@@ -226,17 +226,15 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
-    <enableHistory>true</enableHistory>
+    <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>AccountSource</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -245,7 +243,6 @@
         <label>Active</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -266,17 +263,20 @@
     <fields>
         <fullName>AnnualRevenue</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramLevelName</fullName>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramName</fullName>
     </fields>
     <fields>
         <fullName>CleanStatus</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
@@ -284,7 +284,6 @@
         <label>Customer Priority</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -308,56 +307,80 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Customer_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>DandbCompanyId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Description</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>DunsNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>External_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>External Id</label>
+        <length>140</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Industry</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>IsCustomerPortal</fullName>
+    </fields>
+    <fields>
+        <fullName>IsPartner</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Is_Gold_Partner__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Gold Partner?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>NaicsCode</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>NaicsDesc</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>true</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>NumberOfEmployees</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>NumberofLocations__c</fullName>
@@ -367,43 +390,36 @@
         <required>false</required>
         <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Number</type>
         <unique>false</unique>
     </fields>
     <fields>
         <fullName>OperatingHoursId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Ownership</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
         <fullName>ParentId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Hierarchy</type>
     </fields>
     <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Rating</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -412,7 +428,6 @@
         <label>SLA Expiration Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Date</type>
     </fields>
     <fields>
@@ -422,7 +437,6 @@
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -432,7 +446,6 @@
         <label>SLA</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -463,37 +476,30 @@
     <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Sic</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>SicDesc</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Site</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Tradestyle</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Type</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
@@ -502,7 +508,6 @@
         <label>Upsell Opportunity</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <valueSetDefinition>
@@ -528,12 +533,128 @@
     <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>child_field__c</fullName>
+        <externalId>false</externalId>
+        <label>child field</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>controlling_pick_list__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>one</fullName>
+                    <default>false</default>
+                    <label>one</label>
+                </value>
+                <value>
+                    <fullName>two</fullName>
+                    <default>false</default>
+                    <label>two</label>
+                </value>
+                <value>
+                    <fullName>three</fullName>
+                    <default>false</default>
+                    <label>three</label>
+                </value>
+                <value>
+                    <fullName>four</fullName>
+                    <default>false</default>
+                    <label>four</label>
+                </value>
+                <value>
+                    <fullName>five</fullName>
+                    <default>false</default>
+                    <label>five</label>
+                </value>
+                <value>
+                    <fullName>six</fullName>
+                    <default>false</default>
+                    <label>six</label>
+                </value>
+                <value>
+                    <fullName>seven</fullName>
+                    <default>false</default>
+                    <label>seven</label>
+                </value>
+                <value>
+                    <fullName>eight</fullName>
+                    <default>false</default>
+                    <label>eight</label>
+                </value>
+                <value>
+                    <fullName>nine</fullName>
+                    <default>false</default>
+                    <label>nine</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>a</controllingFieldValue>
+                <valueName>one</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>a</controllingFieldValue>
+                <valueName>two</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>a</controllingFieldValue>
+                <controllingFieldValue>b</controllingFieldValue>
+                <valueName>three</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>a</controllingFieldValue>
+                <controllingFieldValue>b</controllingFieldValue>
+                <valueName>four</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>a</controllingFieldValue>
+                <valueName>nine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>b</controllingFieldValue>
+                <valueName>five</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>b</controllingFieldValue>
+                <valueName>six</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>b</controllingFieldValue>
+                <valueName>seven</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>controlling_pick_list__c</fullName>
+        <externalId>false</externalId>
+        <label>controlling pick list</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>a</fullName>
+                    <default>false</default>
+                    <label>a</label>
+                </value>
+                <value>
+                    <fullName>b</fullName>
+                    <default>false</default>
+                    <label>b</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>test_1__c</fullName>
@@ -542,7 +663,6 @@
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -553,7 +673,6 @@
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -564,7 +683,6 @@
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -575,7 +693,6 @@
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -586,7 +703,6 @@
         <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -602,6 +718,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>test_7__c</fullName>
+        <externalId>false</externalId>
+        <label>test 7 upd</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>test_8__c</fullName>
         <externalId>false</externalId>
         <label>test 8</label>
@@ -611,6 +737,75 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Number</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_acc_picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>test acc picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>apple</fullName>
+                    <default>false</default>
+                    <label>apple</label>
+                </value>
+                <value>
+                    <fullName>ball</fullName>
+                    <default>false</default>
+                    <label>ball</label>
+                </value>
+                <value>
+                    <fullName>cat</fullName>
+                    <default>false</default>
+                    <label>cat_small</label>
+                </value>
+                <value>
+                    <fullName>dog</fullName>
+                    <default>false</default>
+                    <label>dog</label>
+                </value>
+                <value>
+                    <fullName>elephant_big</fullName>
+                    <default>false</default>
+                    <label>elephant_big</label>
+                </value>
+                <value>
+                    <fullName>fountain</fullName>
+                    <default>false</default>
+                    <label>fountain</label>
+                </value>
+                <value>
+                    <fullName>garage</fullName>
+                    <default>false</default>
+                    <label>garage</label>
+                </value>
+                <value>
+                    <fullName>horse</fullName>
+                    <default>false</default>
+                    <label>horse</label>
+                </value>
+                <value>
+                    <fullName>intelligent</fullName>
+                    <default>false</default>
+                    <label>intelligent</label>
+                </value>
+                <value>
+                    <fullName>jack</fullName>
+                    <default>false</default>
+                    <label>jack</label>
+                </value>
+                <value>
+                    <fullName>kait</fullName>
+                    <default>false</default>
+                    <label>kait</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
@@ -671,6 +866,20 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Cinema_Acc_Val</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNULL(AccountNumber)</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account Number cannot be nullified</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>test_acc</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK(BillingCountry)</errorConditionFormula>
+        <errorDisplayField>BillingCountry</errorDisplayField>
+        <errorMessage>Billing Country cannot be blank</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
@@ -689,84 +898,5 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>Copado_Home_Page</fullName>
-        <availability>online</availability>
-        <description>Copado main page URL</description>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Copado Home Page</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://www.copado.com/</url>
-    </webLinks>
-    <webLinks>
-        <fullName>Google_link</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Google link</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://www.google.com/</url>
-    </webLinks>
-    <webLinks>
-        <fullName>Stack_Overflow</fullName>
-        <availability>online</availability>
-        <description>Coders lifeline</description>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>Stack Overflow</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://stackoverflow.com/</url>
-    </webLinks>
-    <webLinks>
-        <fullName>facebook_login</fullName>
-        <availability>online</availability>
-        <description>Link to facebook login page</description>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>facebook login</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://www.facebook.com/login/</url>
     </webLinks>
 </CustomObject>

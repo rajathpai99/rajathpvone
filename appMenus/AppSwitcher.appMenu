@@ -77,36 +77,8 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__QueueManagement</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Branch_Management</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Change_Management</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Compliance_Hub</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Console</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Permissioner</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Selenium_Testing</name>
-        <type>CustomApplication</type>
+        <name>paiservice</name>
+        <type>Network</type>
     </appMenuItems>
     <appMenuItems>
         <name>Dataloader_Bulk</name>
@@ -141,11 +113,11 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
-        <name>test_ca</name>
-        <type>ConnectedApp</type>
+        <name>standard__QueueManagement</name>
+        <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>copadoccmint__Copado_Integrations</name>
-        <type>CustomApplication</type>
+        <name>P &amp; C Community</name>
+        <type>Network</type>
     </appMenuItems>
 </AppMenu>
