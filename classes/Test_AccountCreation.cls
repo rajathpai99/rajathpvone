@@ -2,6 +2,6 @@
 public class Test_AccountCreation {
 @IsTest
     private static void testAccount(){
-        AccountCreation.newAccountRecords();
+        AccountCreation.newAccountRecords(); //com_18Jul
     }
 }

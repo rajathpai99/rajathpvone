@@ -5,7 +5,7 @@ public class AccountCreation {
         for( Integer i=0 ; i<20 ; i++ ) {
             Account acc=new Account();
             acc.Name = 'PaiCopa'+i+'Rajath';
-            acc.Fax = '123paicopa';
+            acc.Fax = 'paicopa2021_Jul';
             acc.Website='https://trailhead.salesforce.com';
             accList.add(acc);
         }
