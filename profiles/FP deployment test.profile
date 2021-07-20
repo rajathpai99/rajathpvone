@@ -4186,10 +4186,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>AccountSwitcherUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ActivateContract</name>
     </userPermissions>
     <userPermissions>
