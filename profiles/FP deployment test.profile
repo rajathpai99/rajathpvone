@@ -2642,10 +2642,6 @@
         <recordType>Contact.CRM_Work</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
-        <recordType>Contact.Technical_Contact</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Contact-Contact Layout 360 Connect</layout>
         <recordType>Contact.CRM_Work_SE</recordType>
     </layoutAssignments>
