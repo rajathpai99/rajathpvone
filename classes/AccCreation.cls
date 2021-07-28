@@ -1,13 +1,16 @@
 public class AccCreation {
+    //conflict - 28Jul
     public static void newAccountRecords() {
         try{
         List<Account> accList= new List<Account>();
         for( Integer i=0 ; i<20 ; i++ ) {
-            Account act1=new Account();
-            act1.Name = 'PaiCopa'+i+'Rajath';
-            act1.Fax = '123paicopa';
-            act1.Website='https://twitter.com';
-            accList.add(act1);
+            Account act1_upd=new Account();
+            act1_upd.Name = 'PaiCopa'+i+'Rajath';
+            act1_upd.Fax = '123paicopa';
+            act1_upd.Website='https://twitter.com'; //Additional Comment
+            //Extra line for CLI testing
+            //Another line for CLI merge FB woth dev
+            accList.add(act1_upd);
         }
         if(accList.size() > 0) {
             insert  accList;
