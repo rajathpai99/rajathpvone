@@ -1,4 +1,5 @@
 public class AccCreation {
+    //conflict - 28Jul
     public static void newAccountRecords() {
         try{
         List<Account> accList= new List<Account>();
@@ -8,6 +9,7 @@ public class AccCreation {
             act1_upd.Fax = '123paicopa';
             act1_upd.Website='https://twitter.com'; //Additional Comment
             //Extra line for CLI testing
+            //Another line for CLI merge FB woth dev
             accList.add(act1_upd);
         }
         if(accList.size() > 0) {
