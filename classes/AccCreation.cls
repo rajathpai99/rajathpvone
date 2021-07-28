@@ -1,4 +1,5 @@
 public class AccCreation {
+    //Conflict line - 28Jul git
     public static void newAccountRecords() {
         try{
         List<Account> accList= new List<Account>();
