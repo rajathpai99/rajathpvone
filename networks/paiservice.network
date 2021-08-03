@@ -9,6 +9,7 @@
     <emailSenderName>paiservice</emailSenderName>
     <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
     <enableDirectMessages>true</enableDirectMessages>
+    <enableExperienceBundleBasedSnaOverrideEnabled>true</enableExperienceBundleBasedSnaOverrideEnabled>
     <enableGuestChatter>false</enableGuestChatter>
     <enableGuestFileAccess>false</enableGuestFileAccess>
     <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
@@ -29,7 +30,7 @@
     <networkMemberGroups>
         <permissionSet>test_perm_set</permissionSet>
         <profile>admin</profile>
-        <profile>readonly</profile>
+        <profile>read only</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>

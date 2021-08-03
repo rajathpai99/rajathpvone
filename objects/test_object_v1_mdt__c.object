@@ -182,7 +182,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>test_object_v1__mdts</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

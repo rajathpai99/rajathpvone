@@ -233,12 +233,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -307,8 +315,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>
@@ -477,12 +487,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -551,8 +569,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>
@@ -725,12 +745,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -800,8 +828,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>
@@ -970,12 +1000,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -1044,8 +1082,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>
@@ -1218,12 +1258,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -1293,8 +1341,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>
@@ -1463,12 +1513,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -1537,8 +1595,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>
@@ -1711,12 +1771,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -1786,8 +1854,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>
@@ -1956,12 +2026,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -2030,8 +2108,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>
@@ -2204,12 +2284,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -2279,8 +2367,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>
@@ -2449,12 +2539,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -2523,8 +2621,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>
@@ -2697,12 +2797,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -2772,8 +2880,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>
@@ -2942,12 +3052,20 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeJ</field>
+            <label>Controlling Picklist</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTim</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTin</field>
             <label>Delivery/Installation Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N2w00000JUAeO</field>
+            <label>Dependent Picklist</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N2w00000EdTio</field>
@@ -3016,8 +3134,10 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N2w00000JUAeJ</field>
             <field>00N2w00000EdTim</field>
             <field>00N2w00000EdTin</field>
+            <field>00N2w00000JUAeO</field>
             <field>00N2w00000EdTio</field>
             <field>00N2w00000EdTip</field>
             <field>00N2w00000El6LP</field>

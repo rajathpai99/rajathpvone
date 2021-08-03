@@ -51,11 +51,6 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__Insights</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__LightningBolt</application>
         <default>false</default>
         <visible>true</visible>
@@ -127,6 +122,10 @@
     </applicationVisibilities>
     <classAccesses>
         <apexClass>AccCreation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountCreation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -210,6 +209,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>OpportunityAlertController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OpportunityAlertControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SiteLoginController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -227,6 +234,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>Test_AccCreation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Test_AccountCreation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
@@ -453,6 +464,21 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.test_5__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.test_6__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.test_7__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.test_8__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1157,6 +1183,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.MSP_test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.MailingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1191,23 +1222,38 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.test_5_update__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contact.test_backpro_field__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.test_con_1__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.test_con_2__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.test_con_3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.test_con_4_update__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contact.test_con_3__c</field>
+        <field>Contact.test_con_5_update__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1266,14 +1312,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>ContactPointAddress.PreferenceRank</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>ContactPointAddress.UsageType</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1983,11 +2029,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Location.TimeZone</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.VisitorAddressId</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2741,6 +2782,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>ServiceAppointment.ApptBookingInfoUrl</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>ServiceAppointment.ArrivalWindowEndTime</field>
         <readable>true</readable>
@@ -2779,6 +2825,11 @@
         <editable>true</editable>
         <field>ServiceAppointment.IsAnonymousBooking</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ServiceAppointment.IsOffsiteAppointment</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2975,14 +3026,21 @@
         <field>test_object__c.test_field_1__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>test_object_v1_mdt__c.test_field_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>test_object_v1_mdt__c.test_field_2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AccountBrand-Account Brand Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Address-Address Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
@@ -3027,10 +3085,38 @@
         <layout>CardPaymentMethod-Card Payment Method Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Case-Case %28Sales%29 Layout</layout>
+        <recordType>Case.case_rec_v3</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case %28Support%29 Layout</layout>
+        <recordType>Case.case_rec_v2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Case-Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.case_rec_v1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Case Layout</layout>
+        <recordType>Case.case_rec_v4</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CaseClose-Close Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Close Case Layout</layout>
+        <recordType>Case.case_rec_v1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Close Case Layout</layout>
+        <recordType>Case.case_rec_v2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Close Case Layout</layout>
+        <recordType>Case.case_rec_v3</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CommunityMemberLayout-Community Member Layout</layout>
@@ -3059,6 +3145,10 @@
     <layoutAssignments>
         <layout>Contact-Contact Layout 360 Connect</layout>
         <recordType>Contact.X360_Connect_Contact</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Test Contact Layout</layout>
+        <recordType>Contact.Technical_test</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContactPointAddress-Contact Point Address Layout</layout>
@@ -3113,9 +3203,6 @@
         <layout>EmailMessage-Email Message Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Employee-Employee Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3141,9 +3228,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Individual-Individual Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>InternalOrganizationUnit-Internal Organization Unit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Invoice-Invoice Layout</layout>
@@ -3355,12 +3439,27 @@
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>test_cm__mdt-test cm Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>test_object__c-test object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>test_object__c-test object Layout</layout>
         <recordType>test_object__c.test_rec_v1</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>test_object_v1_mdt__c-test object v1 Layout</layout>
+    </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AIRecordInsight</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -3385,7 +3484,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Address</object>
+        <object>AppAnalyticsQueryRequest</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -3394,7 +3493,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>AppAnalyticsQueryRequest</object>
+        <object>AppointmentTopicTimeSlot</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -4009,6 +4108,15 @@
         <object>test_object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>test_object_v1_mdt__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
         <enabled>true</enabled>
@@ -4099,7 +4207,6 @@
     </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Case.case_rec_v1</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -4126,6 +4233,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Contact.CRM_Work_SE</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.Technical_test</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
@@ -4974,6 +5086,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManagePartners</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManagePasswordPolicies</name>
     </userPermissions>
     <userPermissions>
@@ -5027,6 +5143,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSynonyms</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageTranslation</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

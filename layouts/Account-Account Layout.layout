@@ -38,6 +38,10 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>External_Id__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Rating</field>
             </layoutItems>
@@ -222,6 +226,11 @@
             <sortOrder>6</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>NewOpportunity</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>7</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>NewEvent</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>8</sortOrder>
@@ -230,11 +239,6 @@
             <actionName>FeedItem.LinkPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>9</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>NewOpportunity</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>7</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>FeedItem.PollPost</actionName>
@@ -376,17 +380,6 @@
         <fields>CONTACT.EMAIL</fields>
         <fields>CONTACT.PHONE1</fields>
         <relatedList>RelatedContactList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>ASSET.NAME</fields>
-        <fields>ASSET.SERIAL_NUMBER</fields>
-        <fields>ASSET.INSTALL_DATE</fields>
-        <fields>ASSET.QUANTITY</fields>
-        <fields>CONTACT.NAME</fields>
-        <fields>ASSET.STATUS</fields>
-        <fields>ASSET.IS_COMPETITOR_PRODUCT</fields>
-        <fields>ASSET.ASSET_LEVEL</fields>
-        <relatedList>RelatedAssetList</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>CAMPAIGN.NAME</fields>

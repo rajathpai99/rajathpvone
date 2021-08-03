@@ -35,7 +35,7 @@
     <rightSection>
         <columnSize>Medium</columnSize>
     </rightSection>
-    <runningUser>{!Environment.paiUsername}</runningUser>
+    <runningUser>rpai@copado.com.devone</runningUser>
     <textColor>#000000</textColor>
     <title>Test Dashboard New</title>
     <titleColor>#000000</titleColor>

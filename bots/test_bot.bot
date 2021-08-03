@@ -163,4 +163,5 @@
     <description>A bot from scratch.</description>
     <label>test bot</label>
     <logPrivateConversationData>false</logPrivateConversationData>
+    <richContentEnabled>false</richContentEnabled>
 </Bot>

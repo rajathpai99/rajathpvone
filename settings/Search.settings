@@ -419,6 +419,12 @@
             <name>test_object__c</name>
             <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>test_object_v1_mdt__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
     </searchSettingsByObject>
     <sidebarAutoCompleteEnabled>true</sidebarAutoCompleteEnabled>
     <sidebarDropDownListEnabled>true</sidebarDropDownListEnabled>

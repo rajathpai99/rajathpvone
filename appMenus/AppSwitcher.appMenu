@@ -41,10 +41,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__Insights</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__LightningSalesConsole</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -119,5 +115,25 @@
     <appMenuItems>
         <name>P &amp; C Community</name>
         <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Test_App_V1</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>TSales_Lightning</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>TSalesCommission</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>TSales_Lightning_Mobile</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>chttrunfollow_UnfollowRukes</name>
+        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

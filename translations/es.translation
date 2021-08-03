@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- TSalesCommission --></label>
+        <name>TSalesCommission</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- TSales_Lightning --></label>
+        <name>TSales_Lightning</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- TSales_Lightning_Mobile --></label>
+        <name>TSales_Lightning_Mobile</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Test App V1 --></label>
+        <name>Test_App_V1</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- chttrunfollow__UnfollowRukes --></label>
+        <name>chttrunfollow_UnfollowRukes</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- test label 1 --></label>
+        <name>test_label_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- test label 2 --></label>
+        <name>test_label_2</name>
+    </customLabels>
     <quickActions>
         <label><!-- Guest Community Case --></label>
         <name>GuestCommunityCase</name>

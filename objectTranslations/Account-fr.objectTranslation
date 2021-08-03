@@ -161,6 +161,18 @@
         <name>test_5__c</name>
     </fields>
     <fields>
+        <label><!-- test 6 --></label>
+        <name>test_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- test 7 upd --></label>
+        <name>test_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- test 8 --></label>
+        <name>test_8__c</name>
+    </fields>
+    <fields>
         <label><!-- test acc picklist --></label>
         <name>test_acc_picklist__c</name>
         <picklistValues>

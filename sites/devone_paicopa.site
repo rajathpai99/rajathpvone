@@ -10,9 +10,9 @@
     <authorizationRequiredPage>Unauthorized</authorizationRequiredPage>
     <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
     <browserXssProtection>true</browserXssProtection>
+    <cachePublicVisualforcePagesInProxyServers>true</cachePublicVisualforcePagesInProxyServers>
     <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
     <contentSniffingProtection>true</contentSniffingProtection>
-    <cspUpgradeInsecureRequests>true</cspUpgradeInsecureRequests>
     <description>Testing Site - for deployment</description>
     <enableAuraRequests>true</enableAuraRequests>
     <fileNotFoundPage>FileNotFound</fileNotFoundPage>
@@ -21,8 +21,8 @@
     <inactiveIndexPage>InMaintenance</inactiveIndexPage>
     <indexPage>AnswersHome</indexPage>
     <masterLabel>devone paicopa</masterLabel>
+    <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
-    <requireHttps>true</requireHttps>
     <siteAdmin>rpai@copado.com.devone</siteAdmin>
     <siteGuestRecordDefaultOwner>rpai@copado.com.devone</siteGuestRecordDefaultOwner>
     <siteTemplate>SiteTemplate</siteTemplate>

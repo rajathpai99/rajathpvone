@@ -45,7 +45,7 @@
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
         <type>Flexipage</type>
-        <profile>ReadOnly</profile>
+        <profile>Read Only</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -53,7 +53,7 @@
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Account</pageOrSobjectType>
         <type>Flexipage</type>
-        <profile>ReadOnly</profile>
+        <profile>Read Only</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
