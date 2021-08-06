@@ -1,7 +1,7 @@
 @IsTest
 public class Test_AccCreation {
 @IsTest
-    private static void testAccount(){
-        AccCreation.newAccountRecords(); //This comment should not cause conflict
+    private static void testAccount(){ //This comment should not create conflict
+        AccCreation.newAccountRecords();
     }
 }
