@@ -1,5 +1,5 @@
 public class AccCreation {
-    //Conflict line - 28Jul git
+    //conflict - 28Jul
     public static void newAccountRecords() {
         try{
         List<Account> accList= new List<Account>();
@@ -7,7 +7,9 @@ public class AccCreation {
             Account act1_upd=new Account();
             act1_upd.Name = 'PaiCopa'+i+'Rajath';
             act1_upd.Fax = '123paicopa';
-            act1_upd.Website='https://twitter.com'; //Conflict generation line
+            act1_upd.Website='https://twitter.com'; //Additional Comment
+            //Extra line for CLI testing
+            //Another line for CLI merge FB woth dev
             accList.add(act1_upd);
         }
         if(accList.size() > 0) {
