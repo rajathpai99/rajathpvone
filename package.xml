@@ -3,6 +3,7 @@
     <types>
         <members>Account</members>
         <members>Case</members>
+        <members>Opportunity</members>
         <name>CustomObject</name>
     </types>
     <version>52.0</version>
