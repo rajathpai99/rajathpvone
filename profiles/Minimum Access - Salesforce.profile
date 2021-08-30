@@ -105,7 +105,15 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AccountCreation</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Test_AccCreation</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Test_AccountCreation</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>false</custom>
@@ -302,6 +310,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.controlling_pick_list__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.test_6__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -731,6 +744,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Case_test_2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.ClosedDate</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1105,14 +1123,14 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>ContactPointAddress.PreferenceRank</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>ContactPointAddress.UsageType</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1811,11 +1829,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Location.VisitorAddressId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>MessagingEndUser.AccountId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2321,6 +2334,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>ServiceAppointment.ApptBookingInfoUrl</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>ServiceAppointment.ArrivalWindowEndTime</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2357,6 +2375,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>ServiceAppointment.IsAnonymousBooking</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ServiceAppointment.IsOffsiteAppointment</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2544,9 +2567,16 @@
         <field>test_object__c.picklist_v1__c</field>
         <readable>false</readable>
     </fieldPermissions>
-    <layoutAssignments>
-        <layout>Address-Address Layout</layout>
-    </layoutAssignments>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>test_object_v1_mdt__c.test_field_1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>test_object_v1_mdt__c.test_field_2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>AssetAction-Asset Action Layout</layout>
     </layoutAssignments>
@@ -2560,16 +2590,10 @@
         <layout>AssociatedLocation-Associated Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Employee-Employee Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>FinanceTransaction-Finance Transaction Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>InternalOrganizationUnit-Internal Organization Unit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>LegalEntity-Legal Entity Layout</layout>
@@ -2599,6 +2623,24 @@
         <layout>test_object__c-test object Layout</layout>
         <recordType>test_object__c.test_rec_v1</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>test_object_v1_mdt__c-test ly_layout</layout>
+    </layoutAssignments>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.case_rec_v1</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.case_rec_v2</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Case.case_rec_v3</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
